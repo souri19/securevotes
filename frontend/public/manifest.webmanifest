@@ -1,0 +1,16 @@
+{
+  "name": "SecureVote — Digital Voting & Election Management",
+  "short_name": "SecureVote",
+  "description": "Civic technology prototype for accessible digital voting and transparent election management.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F6F2",
+  "theme_color": "#0B1120",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+"""SecureVote backend application package."""

@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: securevote-app
+    runtime: docker
+    plan: free
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: SECRET_KEY
+        generateValue: true
+      - key: COOKIE_SECURE
+        value: "true"
+      - key: COOKIE_SAMESITE
+        value: lax
+      - key: SERVE_SPA
+        value: "true"
+      - key: DATABASE_URL
+        value: sqlite:///./securevote.db
